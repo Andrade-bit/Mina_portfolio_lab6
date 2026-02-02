@@ -1,0 +1,29 @@
+.hero{
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  color: white;
+  padding: 80px 0;
+}
+.hero .btn{
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-weight: 600;
+}
+.hero img{
+  border-radius: 50%;
+  border: 6px solid rgba(255,255,255,0.6);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  transition: 0.3s ease;
+}
+.hero img:hover{
+  transform: scale(1.05);
+}
+.img-line{
+  width: 220px;
+  height: 5px;
+  margin: 20px auto 0;
+  border-radius: 50px;
+  background: rgba(255,255,255,0.8);
+}
